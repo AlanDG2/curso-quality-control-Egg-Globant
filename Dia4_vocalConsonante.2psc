@@ -1,0 +1,14 @@
+// Se pide ingresar una letra del alfabeto y mostrar si dicha letra es vocal o consonante.
+Algoritmo Dia4_vocalConsonante2
+	definir letra Como caracter
+	
+	escribir " digite la letra " 
+	leer  letra
+	letra = Mayusculas(letra)
+	si (letra == 'A') o(letra == 'E') o(letra == 'I') o(letra =='O') o(letra == 'U') 
+		Escribir letra " es una vocal"
+	SiNo
+		Escribir letra " es una consonante"
+	FinSi
+	
+FinAlgoritmo
